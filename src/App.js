@@ -1,12 +1,18 @@
+import React, {Component} from 'react';
+import {HashRouter, Route,Switch} from "react-router-dom";
 import './App.css';
+import Main from "./page/main";
 
-function App() {
-  return (
-    <div className="App">
-      <button>공부하기</button>
-      <button>메뉴판</button>
-    </div>
-  );
+class App extends Component {
+    render() {
+        return (
+            <HashRouter>
+                <Switch>
+                    <Route path={'/'} component={Main}/>
+                </Switch>
+            </HashRouter>
+        );
+    }
 }
 
 export default App;
