@@ -1,14 +1,15 @@
 import React from 'react';
 import {Button, message} from "antd";
-import {useHistory} from "react-router-dom";
+import {useNavigate} from "react-router-dom";
 
 const Main = () => {
-    const history = useHistory;
+    const history = useNavigate();
     return (
         <>
         <div>
-            <Button onClick={() => {
-                message.success("클릭했습니다")
+            <Button  onClick={() => {
+                history('/study');
+                message.success("클릭했습니다");
             }}>공부하기</Button>
                 <Button onClick={() => {
                     message.success("클릭했습니다")

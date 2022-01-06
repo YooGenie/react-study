@@ -1,16 +1,20 @@
 import React, {Component} from 'react';
-import {HashRouter, Route,Switch} from "react-router-dom";
+import {BrowserRouter, Route,Routes} from "react-router-dom";
 import './App.css';
+import Study from "./page/study/studyPage";
 import Main from "./page/main";
 
 class App extends Component {
     render() {
         return (
-            <HashRouter>
-                <Switch>
-                    <Route path={'/'} component={Main}/>
-                </Switch>
-            </HashRouter>
+            <BrowserRouter>
+                <Routes>
+                    <Route path={'/'} element={<Main />}/>
+                </Routes>
+                <Routes>
+                    <Route path={'/study'} element={<Study />}/>
+                </Routes>
+            </BrowserRouter>
         );
     }
 }
