@@ -1,0 +1,9 @@
+.ant-layout-header {
+    background: gold;
+    text-align: center;
+}
+
+.ant-layout-footer {
+    background: lightgray;
+    text-align: center;
+}

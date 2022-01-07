@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2364032-c8d0-4de8-b445-702200681d99" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/AppLayout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/AppLayout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +48,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\bsit\go\src\Menu\react-study\src" />
       <recent name="C:\Users\bsit\go\src\Menu\react-study\src\page" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bsit\go\src\Menu\react-study\src\components" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
