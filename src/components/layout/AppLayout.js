@@ -1,14 +1,11 @@
 import React, {Component} from "react";
-import { Layout } from 'antd';
+import {Layout} from 'antd';
 import Footer from "./Footer";
 import Header from "./Header";
-import Main from "../../page/main";
+import Content from "./Content";
 
 
 export default class AppLayout extends Component {
-    state = {
-        collapsed: false,
-    };
 
     render() {
         return (
@@ -17,9 +14,9 @@ export default class AppLayout extends Component {
                     minHeight: "100%"
                 }}
             >
-                <Layout>
+                <Layout className="site-layout">
                     <Header/>
-                    <Main/>
+                    <Content/>
                     <Footer/>
                 </Layout>
             </Layout>

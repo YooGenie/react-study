@@ -1,9 +1,23 @@
 .ant-layout-header {
     background: gold;
     text-align: center;
+    height: 5rem;
 }
 
 .ant-layout-footer {
     background: lightgray;
     text-align: center;
+}
+
+.login-button {
+    float: right;
+    background: #61dafb;
+}
+
+.site-layout-content {
+    background: red;
+}
+
+.sider {
+    background: orange;
 }
