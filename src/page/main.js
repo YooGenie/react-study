@@ -1,19 +1,17 @@
 import React from 'react';
 import {Button, message} from "antd";
 import {useNavigate} from "react-router-dom";
+import Header from "../components/layout/Header";
 
 const Main = () => {
-    const history = useNavigate();
+    const navigate = useNavigate();
     return (
         <>
+
         <div>
             <Button  onClick={() => {
-                history('/study');
-                message.success("클릭했습니다");
+                navigate('//qr-code');
             }}>공부하기</Button>
-                <Button onClick={() => {
-                    message.success("클릭했습니다")
-                }}>메뉴판</Button>
             </div>
   </>
     );

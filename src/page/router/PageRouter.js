@@ -8,7 +8,7 @@ const PageRouter = () => (
   <>
     <Routes>
         <Route path="/" element={<Main/>} />
-      <Route path="/study" element={<Study/>} />
+        <Route path="/study" element={<Study/>} />
     </Routes>
   </>
 );
