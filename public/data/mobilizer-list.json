@@ -1,0 +1,36 @@
+{
+  "result": [
+    {
+      "id": 1,
+      "type": "COMPANY",
+      "businessRegistrationNo": "1018216927",
+      "name": "아름다운가게",
+      "telNo": "07041951105",
+      "logo": "https://share.beautifulstore.org/logo.png",
+      "postNo": "04630",
+      "address": "서울시 종로구 북촌로 21 2층",
+      "addressDetail": "아름다운가게",
+      "description": "",
+      "status": "MobilizerApproved",
+      "createdBy": 4,
+      "createdAt": "2021-05-14T08:23:41+09:00",
+      "updatedBy": 4,
+      "updatedAt": "2021-05-14T08:23:41+09:00",
+      "personInCharge": {
+        "id": 0,
+        "mobilizerId": 0,
+        "memberId": 0,
+        "name": "",
+        "telNo": "",
+        "email": "",
+        "status": "",
+        "createdBy": 0,
+        "createdAt": "0001-01-01T00:00:00Z",
+        "updatedBy": 0,
+        "updatedAt": "0001-01-01T00:00:00Z"
+      },
+      "personInCharges": null
+    }
+  ],
+  "totalCount": 1
+}

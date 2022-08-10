@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2364032-c8d0-4de8-b445-702200681d99" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/layout/Content.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/router/PageRouter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/mobilizer-list.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/AppLayout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/AppLayout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/AppLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/AppLayout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/router/PageRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/router/PageRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/study/studyPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/study/studyPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +42,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/layout" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\GoLand 2020.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bsit\go\src\study\react-study\public\data" />
       <recent name="C:\Users\bsit\go\src\Menu\react-study\src\components\layout" />
       <recent name="C:\Users\bsit\go\src\Menu\react-study\src\components" />
       <recent name="C:\Users\bsit\go\src\Menu\react-study\src\page" />

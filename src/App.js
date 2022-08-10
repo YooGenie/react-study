@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import './App.css';
-import AppLayout from "./components/layout/AppLayout";
+import Study from "./page/study/studyPage";
+import Main from "./page/main";
 
 
 class App extends Component {
@@ -9,7 +10,8 @@ class App extends Component {
         return (
             <BrowserRouter>
                 <Routes>
-                    <Route path={'/'} element={<AppLayout/>}/>
+                    <Route path={'/'} element={<Main/>}/>
+                    <Route path="/qr-code" element={<Study/>} />
                 </Routes>
             </BrowserRouter>
         );
