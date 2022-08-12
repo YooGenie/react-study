@@ -1,7 +1,6 @@
 import React from 'react';
-import {Button, message} from "antd";
+import {Button} from "antd";
 import {useNavigate} from "react-router-dom";
-import Header from "../components/layout/Header";
 
 const Main = () => {
     const navigate = useNavigate();
@@ -10,8 +9,12 @@ const Main = () => {
 
         <div>
             <Button  onClick={() => {
-                navigate('//qr-code');
+                navigate('/study');
             }}>공부하기</Button>
+
+            <Button  onClick={() => {
+                navigate('/qr-code');
+            }}>QR코드</Button>
             </div>
   </>
     );

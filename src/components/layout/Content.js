@@ -10,7 +10,6 @@ function Content() {
         <>
             <Layout.Content className="site-layout-content">
                 <section>
-                    <p>뭐가 나와라!!!!!!!</p>
                 <PageRouter/>
                 </section>
             </Layout.Content>
