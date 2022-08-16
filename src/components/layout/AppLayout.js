@@ -6,19 +6,15 @@ import Content from "./Content";
 
 
 export default class AppLayout extends Component {
-
+    state = {
+        collapsed: false,
+    };
     render() {
         return (
-            <Layout
-                style={{
-                    minHeight: "100%"
-                }}
-            >
-                <Layout className="site-layout">
-                    <Header/>
-                    <Content/>
-                    <Footer/>
-                </Layout>
+            <Layout>
+                <Header/>
+                <Content/>
+                <Footer/>
             </Layout>
         );
     }
