@@ -14,6 +14,9 @@ const Main = () => {
                 <Button onClick={() => {
                     navigate('/qr-code');
                 }}>QR코드</Button>
+                <Button onClick={() => {
+                    navigate('/state-study');
+                }}>state 공부</Button>
             </div>
         </>
     );

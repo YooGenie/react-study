@@ -1,5 +1,5 @@
 import React from 'react';
-import {Button, Layout, message} from "antd";
+import {Image, Layout} from "antd";
 import styles from "./AppLayout.css"
 import logo from  "../../img/logo.png"
 
@@ -8,7 +8,7 @@ function Header() {
         <Layout.Header>
             <div>
                 <b className={styles.antLayoutHeader}> 유지니의 자바스크립트 공부방 </b>
-                <img src={logo} style={{width:30}}/>
+                <Image src={logo} style={{width:30}} preview={false} />
             </div>
         </Layout.Header>
     );
