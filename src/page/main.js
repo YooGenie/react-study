@@ -17,6 +17,9 @@ const Main = () => {
                 <Button onClick={() => {
                     navigate('/state-study');
                 }}>state 공부</Button>
+                <Button onClick={() => {
+                    navigate('/menu');
+                }}>메뉴판</Button>
             </div>
         </>
     );
