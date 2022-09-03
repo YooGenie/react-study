@@ -20,6 +20,9 @@ const Main = () => {
                 <Button onClick={() => {
                     navigate('/menu');
                 }}>메뉴판</Button>
+                <Button onClick={() => {
+                    navigate('/view-pdf');
+                }}>PDF 미리보기</Button>
             </div>
         </>
     );

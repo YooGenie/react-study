@@ -5,6 +5,7 @@ import QRCode from "../study/QRCodePage";
 import Main from "../main";
 import StateStudy from "../study/StatePage";
 import MenuList from "../study/menu/MenuList";
+import ViewPDF from "../study/ViewPDFPage";
 
 
 
@@ -17,6 +18,7 @@ const PageRouter = () => (
                 <Route path="/qr-code" element={<QRCode/>} />
                 <Route path="/state-study" element={<StateStudy/>}/>
                 <Route path="/menu" element={<MenuList/>}/>
+                <Route path="/view-pdf" element={<ViewPDF/>}/>
             </Routes>
         </BrowserRouter>
     </>
