@@ -12,5 +12,10 @@ study-service와 매칭 되었다.
 https://pink1016.tistory.com/
 
 # #QR코드 만들기
-https://github.com/YooGenie/react-study/issues/3
-https://pink1016.tistory.com/148?category=1022926
+이슈: https://github.com/YooGenie/react-study/issues/3 <br>
+블로그: https://pink1016.tistory.com/148?category=1022926
+
+# #PDF 파일 다운받기
+이슈: https://github.com/YooGenie/react-study/issues/6 <br>
+블로그:
+
