@@ -19,3 +19,7 @@ https://pink1016.tistory.com/
 이슈: https://github.com/YooGenie/react-study/issues/6 <br>
 블로그:
 
+# #footer를 고정시키자
+이슈: https://github.com/YooGenie/react-study/issues/18 <br>
+
+
