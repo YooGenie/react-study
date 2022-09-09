@@ -7,6 +7,11 @@
 .ant-layout-footer {
     background: lightgray;
     text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 15px 0;
 }
 
 .login-button {
@@ -16,7 +21,7 @@
 
 .site-layout-content {
     background: lightpink;
-    height: 800px;
+    height: 100%;
 }
 
 .sider {
