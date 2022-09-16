@@ -22,4 +22,5 @@ https://pink1016.tistory.com/
 # #footer를 고정시키자
 이슈: https://github.com/YooGenie/react-study/issues/18 <br>
 
-
+# #모달창에 PDF 미리보기
+이슈: https://github.com/YooGenie/react-study/issues/24
