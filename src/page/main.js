@@ -23,6 +23,9 @@ const Main = () => {
                 <Button onClick={() => {
                     navigate('/view-pdf');
                 }}>PDF 미리보기</Button>
+                <Button onClick={() => {
+                    navigate('/file');
+                }}>파일</Button>
             </div>
         </>
     );
