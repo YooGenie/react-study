@@ -7,6 +7,7 @@ import StateStudy from "../study/StatePage";
 import MenuList from "../study/menu/MenuList";
 import ViewPDF from "../study/ViewPDFPage";
 import FileStudy from "../study/FilePage";
+import PayStudy from "../study/PayPage";
 
 
 
@@ -21,6 +22,7 @@ const PageRouter = () => (
                 <Route path="/menu" element={<MenuList/>}/>
                 <Route path="/view-pdf" element={<ViewPDF/>}/>
                 <Route path="/file" element={<FileStudy/>}/>
+                <Route path="/pay" element={<PayStudy/>}/>
             </Routes>
         </BrowserRouter>
     </>

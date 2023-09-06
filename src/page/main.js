@@ -26,6 +26,9 @@ const Main = () => {
                 <Button onClick={() => {
                     navigate('/file');
                 }}>파일</Button>
+                <Button onClick={() => {
+                    navigate('/pay');
+                }}>결제</Button>
             </div>
         </>
     );
