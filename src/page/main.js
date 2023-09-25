@@ -29,6 +29,9 @@ const Main = () => {
                 <Button onClick={() => {
                     navigate('/pay');
                 }}>결제</Button>
+                <Button onClick={() => {
+                    navigate('/form');
+                }}>Form 리셋</Button>
             </div>
         </>
     );
