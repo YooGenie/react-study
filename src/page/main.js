@@ -32,6 +32,9 @@ const Main = () => {
                 <Button onClick={() => {
                     navigate('/form');
                 }}>Form 리셋</Button>
+                <Button onClick={() => {
+                    navigate('/model');
+                }}>3D 모델링</Button>
             </div>
         </>
     );
