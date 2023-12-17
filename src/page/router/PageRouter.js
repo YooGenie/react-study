@@ -9,6 +9,7 @@ import ViewPDF from "../study/ViewPDFPage";
 import FileStudy from "../study/FilePage";
 import PayStudy from "../study/PayPage";
 import FormStudy from "../study/FormPage";
+import Model from "../study/ModelPage";
 
 
 
@@ -25,6 +26,7 @@ const PageRouter = () => (
                 <Route path="/file" element={<FileStudy/>}/>
                 <Route path="/pay" element={<PayStudy/>}/>
                 <Route path="/form" element={<FormStudy/>}/>
+                <Route path="/model" element={<Model/>}/>
             </Routes>
         </BrowserRouter>
     </>
