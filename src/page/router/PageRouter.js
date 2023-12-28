@@ -10,6 +10,8 @@ import FileStudy from "../study/FilePage";
 import PayStudy from "../study/PayPage";
 import FormStudy from "../study/FormPage";
 import Model from "../study/ModelPage";
+import ReduxPage from "../study/ReduxPage";
+import ReduxSubPage from "../study/ReduxSubPage";
 
 
 
@@ -27,6 +29,8 @@ const PageRouter = () => (
                 <Route path="/pay" element={<PayStudy/>}/>
                 <Route path="/form" element={<FormStudy/>}/>
                 <Route path="/model" element={<Model/>}/>
+                <Route path="/redux" element={<ReduxPage/>}/>
+                <Route path="/redux-sub" element={<ReduxSubPage/>}/>
             </Routes>
         </BrowserRouter>
     </>
