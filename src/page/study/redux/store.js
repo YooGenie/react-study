@@ -1,8 +1,18 @@
 // store.js
-import { createStore } from "redux"; //"redux" 라이브러리에서 제공하는 createStore 함수를 가져오는 부분
+import { createStore } from "redux";
+import { persistStore, persistReducer } from "redux-persist";
+import storage from "redux-persist/lib/storage"; //Redux Persist에서 사용할 스토리지 엔진(로컬 스토리지 사용)
 import rootReducer from "./reducer";
 
-const store = createStore(rootReducer);
-// 이 부분은 createStore 함수에 rootReducer를 전달하여 Redux 스토어를 생성하는 부분입니다. 이제 store 변수에는 애플리케이션의 상태가 저장되어 있습니다.
+const persistConfig = {
+    key: "root", // 로컬 스토리지에 저장되는 키
+    storage,
+};
 
-export { store };
+const persistedReducer = persistReducer(persistConfig, rootReducer);
+//persistConfig에 따라 상태를 로컬 스토리지에 저장하고 관리한다.
+
+const store = createStore(persistedReducer); // persistedReducer 이용해서 지속성 유지한다
+const persistor = persistStore(store); // 지속성 객체를 만든다.
+
+export { store, persistor };
