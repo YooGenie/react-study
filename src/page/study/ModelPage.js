@@ -1,4 +1,5 @@
 import { Canvas } from "@react-three/fiber";
+import {OrbitControls} from "@react-three/drei";
 
 
 
@@ -6,6 +7,7 @@ import { Canvas } from "@react-three/fiber";
 const Circle = () => {
     return (
         <>
+            <OrbitControls />
         <ambientLight intensity={0.25} />
         <directionalLight color="white" position={[10, 10, 10]} />
         <mesh>
@@ -19,6 +21,7 @@ const Circle = () => {
 const Sphere = () => {
     return (
         <>
+            <OrbitControls />
             <ambientLight intensity={0.75} />
             <directionalLight color="white" position={[10, 10, 10]} />
             <mesh rotation={[Math.PI / 180 * 30, 20, 0]}>
