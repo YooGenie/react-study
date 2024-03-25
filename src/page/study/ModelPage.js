@@ -1,5 +1,7 @@
 import { Canvas } from "@react-three/fiber";
 import {OrbitControls} from "@react-three/drei";
+import {CatModel} from "./cat";
+
 
 
 
@@ -43,6 +45,17 @@ const Model = () => {
          <Canvas style={{ width: "400px", height: "400px", background: "blue" }}>
              <Sphere/>
          </Canvas>
+             <Canvas style={{ width: "400px", height: "400px", background: "yellow" }}>
+                 <OrbitControls/>
+                 <axesHelper />
+                 {/* 각각의 축을 나타내는 선분들로 이루어진 좌표축을 표시하는 데 사용*/}
+                 <ambientLight intensity={0.75} />
+                 <directionalLight color="white" position={[10, 10, 10]} />
+                 <group>
+                     <CatModel scale={[0.01,0.01,0.01]} />
+                 </group>
+             </Canvas>
+
          </div>
      </>
 
